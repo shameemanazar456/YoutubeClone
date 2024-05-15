@@ -9,6 +9,7 @@ import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import '../sections/header.css'
+
 import Home from '../Pages/Home';
 
 function Header() {
@@ -25,29 +26,28 @@ function Header() {
       <FontAwesomeIcon className='ms-2 fa-xl' icon={faYoutube} style={{color: "#f00505",}} />
       <span className='fs-5 ms-1'>KidsTube</span>
         </Button>
-        <div className='d-flex ms-5 mt-4 w-100 '>
+        <div className= 'sidebar  d-flex ms-5 mt-4 w-100 '>
          
-        <div className='d-flex ms-md-5 ps-md-5 w-100'>
-           <div className='d-flex ms-md-5 me-md-5 pe-md-5 w-75'>
+        <Row className='d-flex ms-md-5 ps-md-5  w-100 '>
+           <Col md={5} className=' d-flex ms-md-5 me-md-2 pe-md-5 '>
               <input type="text" placeholder='Search' className='form-control p-3    ' style={{borderRadius:'50px', width:'100%', height:'40px', backgroundColor:'white' }}  />
               <FontAwesomeIcon icon={faMagnifyingGlass} style={{marginLeft:'-40px', marginTop:'12px'}} />
               <FontAwesomeIcon  className='ms-4 mt-2 fa-xl' icon={faMicrophone} style={{color: "#edeff2",}} />
-           </div>
-           <div className='d-flex ms-3 me-5'>
+           </Col>
+           <Col md={3} className=' d-sm-none d-md-block  d-flex mt-md-0 mt-3 ms-3 me-2'>
               <FontAwesomeIcon className='mt-2 fa-xl create' icon={faVideo} style={{color: "#f4f6fb",}} />
-              <FontAwesomeIcon className='mt-2 fa-lg ms-4' icon={faBell} style={{color: "#eaecf0",}} />
+              <FontAwesomeIcon className='mt-2 fa-lg ms-3' icon={faBell} style={{color: "#eaecf0",}} />
+              <FontAwesomeIcon className='mt-2 fa-lg ms-3  text-light' icon={faUser} style={{color: "#f7f7f7",}} />
              
-              <FontAwesomeIcon className='mt-2 fa-lg ms-4' icon={faUser} style={{color: "#f7f7f7",}} />
-             
-              </div>
-        </div>
+              </Col>
+        </Row>
          
         
         </div>
    </div>
 
       
-      <div variant="info" className=" d-lg-block border-bottom border-bottom-light  p-md-3 " style={{height:'100vh', width:'100px' }}>
+      <div  variant="info" className=" d-lg-block border-bottom border-bottom-light  p-md-3 " style={{height:'100vh', width:'100px' }}>
        <FontAwesomeIcon icon={faHouse} className='ms-4  mt-4' style={{color: "#fcfcfc",}} />
        <p className='text-light ms-3 ' style={{fontSize:'12px'}}> Home</p>
        <img src="https://logowik.com/content/uploads/images/youtube-shorts-black3609.jpg" alt="" className='ms-4  mt-4' style={{width:'20px'}} />
@@ -58,11 +58,8 @@ function Header() {
       <p  className='text-light ms-4'  style={{fontSize:'12px'}}  > You</p>
       <FontAwesomeIcon className='ms-4 mt-4' icon={faDownload} style={{color: "#eff1f6",}} />
       <p  className='text-light ms-2'  style={{fontSize:'12px'}}  >Downloads</p>
-
-
-
       </div>
-      <div style={{marginTop:'-630px', marginLeft:'200px'}}> 
+      <div className='home' style={{marginTop:'-655px', marginLeft:'80px'}}> 
   <Home/>
 </div>
       

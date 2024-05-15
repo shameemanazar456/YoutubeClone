@@ -7,8 +7,8 @@ import Card from 'react-bootstrap/Card';
 function Home() {
   return (
     <>
-    <Row className='me-2'>
-    <Col md={6} sm={12} lg={3} className='mx-5 my-2'>
+    <Row className='me-md-2'>
+    <Col md={6} sm={12} lg={3} className='mx-md-5 my-2'>
       <Card style={{ width: '350px', backgroundColor:'black' }}>
       {/* <video className={`object-cover w-full h-full rounded border-4 border-solid `} >
         <source
@@ -17,7 +17,7 @@ function Home() {
           className={`object-cover w-full h-full rounded border-4 border-solid `}
         />
       </video> */}
-      <iframe width="350" height="250" src="https://www.youtube.com/embed/bulxj8Ce7U0?si=rNDch2BPxjTSTBFx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="300" height="250" src="https://www.youtube.com/embed/bulxj8Ce7U0?si=rNDch2BPxjTSTBFx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <Card.Body>
         <Card.Title className='text-light'>Are You Sleeping Brother John song | Tim and Essy Kids Songs</Card.Title>
         <Card.Text>
@@ -27,7 +27,7 @@ function Home() {
       </Card.Body>
     </Card>
       </Col>
-      <Col md={6} sm={12} lg={3} className='mx-5 my-2'>
+      <Col md={6} sm={12} lg={3} className='mx-md-5 my-2'>
       <Card style={{ width: '350px', backgroundColor:'black' }}>
      
       <iframe  width="350" height="250" src="https://www.youtube.com/embed/4o8nWOaLsBo?si=zBsIKsCzV1ILtXYh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      <Card.Body>
@@ -39,7 +39,7 @@ function Home() {
       </Card.Body>
     </Card>
       </Col>
-      <Col md={6} sm={12} lg={3} className='mx-5 my-2'>
+      <Col md={6} sm={12} lg={3} className='mx-md-5 my-2'>
       <Card style={{ width: '350px', backgroundColor:'black' }}>
       <iframe width="350" height="250" src="https://www.youtube.com/embed/0FQV9PxyD5g?si=8aEpms9fJEpAKuM3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <Card.Body>
@@ -51,7 +51,7 @@ function Home() {
       </Card.Body>
     </Card>
       </Col>
-      <Col md={6} sm={12} lg={3} className='mx-5 my-2'>
+      <Col md={6} sm={12} lg={3} className='mx-md-5 my-2'>
       <Card style={{ width: '350px', backgroundColor:'black' }}>
       <iframe width="350" height="250" src="https://www.youtube.com/embed/OM1NRoFkntw?si=j8n0SGX87-P2CfnC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <Card.Body>
@@ -63,7 +63,7 @@ function Home() {
       </Card.Body>
     </Card>
       </Col>
-      <Col md={6} sm={12} lg={3} className='mx-5 my-2'>
+      <Col md={6} sm={12} lg={3} className='mx-md-5 my-2'>
       <Card style={{ width: '350px', backgroundColor:'black' }}>
       
       <iframe width="350" height="250" src="https://www.youtube.com/embed/oKSHeocHTuU?si=AGpyo9yARnZPg8xM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -76,7 +76,7 @@ function Home() {
       </Card.Body>
     </Card>
       </Col>
-      <Col md={6} sm={12} lg={3} className='mx-5 my-2'>
+      <Col md={6} sm={12} lg={3} className='mx-md-5 my-2'>
       <Card style={{ width: '350px', backgroundColor:'black' }}>
       <iframe width="350" height="250" src="https://www.youtube.com/embed/jjOM95bXngs?si=vJXShg_l6Flpkp3G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <Card.Body>
@@ -88,7 +88,7 @@ function Home() {
       </Card.Body>
     </Card>
       </Col>
-      <Col md={6} sm={12} lg={3} className='mx-5 my-2'>
+      <Col md={6} sm={12} lg={3} className='mx-md-5 my-2'>
       <Card style={{ width: '350px', backgroundColor:'black' }}>
       <iframe width="350" height="250" src="https://www.youtube.com/embed/XXEUPuc7E6Y?si=6rSyqLjpXPeXpBG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <Card.Body>
@@ -100,7 +100,7 @@ function Home() {
       </Card.Body>
     </Card>
       </Col>
-      <Col md={6} sm={12} lg={3} className='mx-5 my-2'>
+      <Col md={6} sm={12} lg={3} className='mx-md-5 my-2'>
       <Card style={{ width: '350px', backgroundColor:'black' }}>
       <iframe width="350" height="250" src="https://www.youtube.com/embed/MTLOJFC9r2w?si=RCpfboCe3LvWqaRB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <Card.Body>
@@ -112,7 +112,7 @@ function Home() {
       </Card.Body>
     </Card>
       </Col>
-      <Col md={6} sm={12} lg={3} className='mx-5 my-2'>
+      <Col md={6} sm={12} lg={3} className='mx-md-5  my-2'>
       <Card style={{ width: '350px', backgroundColor:'black' }}>
       <iframe width="350" height="250" src="https://www.youtube.com/embed/L_cJnS3Iasg?si=PWKlSYMdg6AnQc77" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <Card.Body>
